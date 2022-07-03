@@ -1,3 +1,2 @@
 # Questo è un testo di prova.
 Lorem ipsum agit
-![]()
