@@ -1,1 +1,2 @@
-Here my blog
+Here my tech blog
+Follow me in LinkedIn
