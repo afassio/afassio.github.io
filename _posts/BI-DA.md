@@ -5,7 +5,7 @@
 <img src="/Images/Immagine 15.png" alt="drawing" width="600" />
 </p>
 
-> Un’enorme massa di dati viene generata giornalmente nel corso delle normali operazioni aziendali. Come elaborali in modo efficace?
+> ***Un’enorme massa di dati viene generata giornalmente nel corso delle normali operazioni aziendali. Come elaborali in modo efficace?***
 
 La gestione dei dati è una delle strategie aziendali necessarie per comprendere i dati storici e contemporanei e per ricavarne una conoscenza approfondita. I fattori distintivi tra questi due concetti sono estremamente sottili: la confusione è ulteriormente aggravata dato che i termini sono spesso usati in modo intercambiabile, ma di principio non lo sono.
 
@@ -57,13 +57,15 @@ La data analysis e i data analytics, invece,  utilizzano statistiche descrittive
 
 L'analista deve quindi conoscere approfonditamente il business, lavorando possibilmente nel suo interno per interpretare corretamente i risultati delle analisi ottenute e apportare le dovute correzioni confrontando gli stessi con la realtà operativa.
 
-<img src="/Images/Immagine13.png" alt="drawing" style="width:200px;float: right;margin-left: 30px"/>
+
 
 Deve essere competente in abilità matematiche per essere in grado di interpretare e valutare i dati e di competenze informatiche per implementare gli algoritmi necessari.
 
-<img src="/Images/Immagine14.png" alt="drawing" style="width:120px;float: left;margin-right: 30px"/>
+<img src="/Images/Immagine13.png" align="right" style="width:200px;margin-left: 30px"/>
 
 A tal proposito, l’analista di dati deve conoscere linguaggi di programmazione quali R e Python, oggi fra i più utilizzati per la data science e i Data Analytics.
+
+<img src="/Images/Immagine14.png" align="left" style="width:200px;margin-right: 30px"/>
 
 Deve inoltre essere in grado di gestire le applicazioni costruite in Iaas o utilizzare applicazioni in PaaS o SaaS sviluppate dai maggiori provider di cloud.
 
