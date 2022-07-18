@@ -4,6 +4,7 @@
 > ### Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi. 
 
 Al centro della rivoluzione digitale della produzione ci sono diversi fattori abilitanti:
+
 •	l’evoluzione aziendale della cultura “data-driven”: i Big Data e Analytics stanno cambiando il volto delle aziende, i fornitori di prodotti e servizi vogliono accedere ai dati generati dalle macchine per monitorare il controllo qualità in tempo reale, migliorare efficacia complessiva delle Operations (mantenendo sotto controllo i relativi KPI, primo fra tutti l’OEE, Overall Equipment Effectiveness cioè l’efficienza complessiva della risorsa produttiva, una metrica ben nota che può essere adottata, con le opportune similitudini, anche alle realtà delle aziende di servizi) 
 
 <p align="center">
