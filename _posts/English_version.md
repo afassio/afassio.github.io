@@ -1,7 +1,7 @@
 # The digital transformation of maintenance in Rai Way: a use case under study
 
 <p align="center">
-<img src="/Images/rw.png"
+<img src="/Images/rw.jpg"
 alt="drawing" width="1000" />
 </p>
 
