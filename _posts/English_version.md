@@ -1,5 +1,11 @@
 # The digital transformation of maintenance in Rai Way: a use case under study
 
+<p align="center">
+<img src="/Images/rw.png"
+alt="drawing" width="1000" />
+</p>
+
+
 > ### *In a dynamic economy, product or service providers recognize the need to transform "digitally", require the ability to scale, align and adjust production capacities quickly in response to market demands.*
 > ### *Connecting previously unconnected machines or plants to intelligent data systems and, in turn, using the generated data to better make better use of existing ones, are the most productive investments because they are seen as the foundation on which to start the modernization of the factory or service company.* 
 
