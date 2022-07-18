@@ -1,8 +1,7 @@
 # La trasformazione digitale della manutenzione in Rai Way: un caso d’uso allo studio
 
-> ### In un'economia dinamica, i fornitori di prodotti o di servizi riconoscono la necessità di trasformarsi “digitalmente”, richiedono la capacità di scalare, allineare e regolare le capacità produttive in tempi rapidi in risposta alle richieste del mercato.  
-
-Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi. 
+> ### In un'economia dinamica, i fornitori di prodotti o di servizi riconoscono la necessità di trasformarsi “digitalmente”, richiedono la capacità di scalare, allineare e regolare le capacità produttive in tempi rapidi in risposta alle richieste del mercato.
+> ### Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi. 
 
 Al centro della rivoluzione digitale della produzione ci sono diversi fattori abilitanti:
 •	l’evoluzione aziendale della cultura “data-driven”: i Big Data e Analytics stanno cambiando il volto delle aziende, i fornitori di prodotti e servizi vogliono accedere ai dati generati dalle macchine per monitorare il controllo qualità in tempo reale, migliorare efficacia complessiva delle Operations (mantenendo sotto controllo i relativi KPI, primo fra tutti l’OEE, Overall Equipment Effectiveness cioè l’efficienza complessiva della risorsa produttiva, una metrica ben nota che può essere adottata, con le opportune similitudini, anche alle realtà delle aziende di servizi) 
@@ -68,9 +67,13 @@ Il caso d’uso analizzato fa riferimento all’analisi audiometrica delle condi
 Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a microprocessore equipaggiato con microfoni embedded.  I recenti progressi nell'architettura dei microprocessori, infatti, hanno reso possibile l'esecuzione di sofisticati carichi di lavoro di machine e deep learning anche sui microcontrollori più piccoli.  L'apprendimento «edge», noto anche come TinyML, è il campo dell'apprendimento automatico quando applicato a sistemi embedded e permette importanti vantaggi nella distribuzione di algoritmi di machine learning su tali dispositivi:
 
 •	larghezza di banda: gli algoritmi sui dispositivi edge possono estrarre informazioni significative dai dati che potrebbero altrimenti essere inaccessibile a causa di vincoli di larghezza di banda
+
 •	latenza: i modelli su dispositivo possono rispondere in tempo reale agli input, abilitando applicazioni che non sarebbero praticabili se dipendenti dalla latenza di rete
+
 •	economia: elaborando i dati su dispositivo, i sistemi integrati evitano i costi di trasmissione dei dati su una rete con elaborazione nel cloud
+
 •	affidabilità: i sistemi controllati da modelli on-device sono intrinsecamente più affidabili di quelli che dipendono da una connessione al cloud
+
 •	privacy: quando i dati vengono elaborati su un sistema embedded e non vengono mai trasmessi al cloud, la privacy è protetta e ci sono meno possibilità di abuso
 
 <img src="/Images/Immagine7.png" align="left" style="width:300px;margin-left: 30px"/>
