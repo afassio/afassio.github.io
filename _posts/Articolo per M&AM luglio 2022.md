@@ -63,10 +63,7 @@ In questa modalità la quantità di informazioni inviate viene ridotta in modo d
 ### Il caso d’uso Rai Way
 Il caso d’uso analizzato fa riferimento all’analisi audiometrica delle condizioni di funzionamento di un sistema di raffreddamento a liquido di un sistema trasmittente DTT, composto da uno scambiatore acqua/glicole con un sistema ridondato di pompe, tramite un sistema IIOT dotato di microfono MEMS incorporato. L’idea nasce dalla collaborazione con un ingegnere indiano di Valeo e dalla collaborazione con il professor Emanuele della Valle durante il mio percorso di master in “Data Science & Business Analytics” presso la Graduate School of Management del Politecnico di Milano.
 
-<p align="center">
-<img src="/Images/Immagine5.png"
-     alt="drawing" width="600" />
-</p>
+<img src="/Images/Immagine5.png" align="right" style="width:400px;margin-left: 30px"/>
 
 Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a microprocessore equipaggiato con microfoni embedded.  I recenti progressi nell'architettura dei microprocessori, infatti, hanno reso possibile l'esecuzione di sofisticati carichi di lavoro di machine e deep learning anche sui microcontrollori più piccoli.  L'apprendimento «edge», noto anche come TinyML, è il campo dell'apprendimento automatico quando applicato a sistemi embedded e permette importanti vantaggi nella distribuzione di algoritmi di machine learning su tali dispositivi:
 
@@ -76,7 +73,7 @@ Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a micropro
 •	affidabilità: i sistemi controllati da modelli on-device sono intrinsecamente più affidabili di quelli che dipendono da una connessione al cloud
 •	privacy: quando i dati vengono elaborati su un sistema embedded e non vengono mai trasmessi al cloud, la privacy è protetta e ci sono meno possibilità di abuso
 
-<img src="/Images/Immagine7.png" align="right" style="width:300px;margin-left: 30px"/>
+<img src="/Images/Immagine7.png" align="left" style="width:300px;margin-left: 30px"/>
 
 
 Il sistema IIOT scelto supporta il TinyML ed è l’ultimo nato della famiglia Arduino: è il Portenta H7 con un micro STM32H747 dual core Cortex M7 a 480 MHz e un core M4 a 240 MHz, equipaggiata con due microfoni MEMS con beamforming avente 64 dB di S/N e sensitività omnidirezionale, una videocamera con risoluzione fino a QVGA (320x240) e consumo minore di 2mW.
