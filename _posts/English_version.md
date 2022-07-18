@@ -26,9 +26,13 @@ alt="drawing" width="600" />
 The program must take into account many factors, including:
 
 •	the observed sources of failure and their relative frequency: these sources can be the main components of the machine, its actuators or its various sensors
+
 •	the availability of process measurements via sensors: the number, type and location of sensors
+
 •	how the various sources of failure result in observed symptoms: this cause-and-effect analysis may require extensive processing of data from available sensors
+
 • 	physical knowledge of systems dynamics: this knowledge can derive from simulations or from the knowledge of domain experts
+
 •	the objective of maintenance, such as restoring faults or developing a maintenance program.
 
 The study of the algorithm is fundamental for the prediction of the anomaly. 
