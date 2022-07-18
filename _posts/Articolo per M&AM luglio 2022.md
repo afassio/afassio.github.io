@@ -1,5 +1,10 @@
 # La trasformazione digitale della manutenzione in Rai Way: un caso d’uso allo studio
 
+<p align="center">
+<img src="/Images/rw.jpg"
+alt="drawing" width="1000" />
+</p>
+
 > ### *In un'economia dinamica, i fornitori di prodotti o di servizi riconoscono la necessità di trasformarsi “digitalmente”, richiedono la capacità di scalare, allineare e regolare le capacità produttive in tempi rapidi in risposta alle richieste del mercato.*
 > ### *Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi.* 
 
