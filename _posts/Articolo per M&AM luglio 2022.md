@@ -1,11 +1,11 @@
 # La trasformazione digitale della manutenzione in Rai Way: un caso d’uso allo studio
 
-> ### In un'economia dinamica, i fornitori di prodotti o di servizi riconoscono la necessità di trasformarsi “digitalmente”, richiedono la capacità di scalare, allineare e regolare le capacità produttive in tempi rapidi in risposta alle richieste del mercato.
-> ### Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi. 
+> ### *In un'economia dinamica, i fornitori di prodotti o di servizi riconoscono la necessità di trasformarsi “digitalmente”, richiedono la capacità di scalare, allineare e regolare le capacità produttive in tempi rapidi in risposta alle richieste del mercato.*
+> ### *Collegare macchine o impianti precedentemente non connessi a sistemi di dati intelligenti e, a sua volta, utilizzare i dati generati per utilizzare meglio quelli esistenti, sono gli investimenti più produttivi perché sono visti come le fondamenta su cui avviare la modernizzazione della fabbrica o dell’azienda di servizi.* 
 
 Al centro della rivoluzione digitale della produzione ci sono diversi fattori abilitanti:
 
-•	l’evoluzione aziendale della cultura “data-driven”: i Big Data e Analytics stanno cambiando il volto delle aziende, i fornitori di prodotti e servizi vogliono accedere ai dati generati dalle macchine per monitorare il controllo qualità in tempo reale, migliorare efficacia complessiva delle Operations (mantenendo sotto controllo i relativi KPI, primo fra tutti l’OEE, Overall Equipment Effectiveness cioè l’efficienza complessiva della risorsa produttiva, una metrica ben nota che può essere adottata, con le opportune similitudini, anche alle realtà delle aziende di servizi) 
+•	**l’evoluzione aziendale della cultura “data-driven”**: i Big Data e Analytics stanno cambiando il volto delle aziende, i fornitori di prodotti e servizi vogliono accedere ai dati generati dalle macchine per monitorare il controllo qualità in tempo reale, migliorare efficacia complessiva delle Operations (mantenendo sotto controllo i relativi KPI, primo fra tutti l’OEE, Overall Equipment Effectiveness cioè l’efficienza complessiva della risorsa produttiva, una metrica ben nota che può essere adottata, con le opportune similitudini, anche alle realtà delle aziende di servizi) 
 
 <p align="center">
 <img src="/Images/Immagine1.png"
@@ -14,7 +14,7 @@ alt="drawing" width="600" />
 
 
 
-•	la convergenza OT e IT: nell’ambiente operativo le tecnologie IT e OT tendono a convergere grazie all’utilizzo delle reti IP.
+•	**la convergenza OT e IT**: nell’ambiente operativo le tecnologie IT e OT tendono a convergere grazie all’utilizzo delle reti IP.
 
 Anche Rai Way, nell’ottica della “digital transformation”, sta guardando al futuro con lo studio di tecniche predittive per la manutenzione.  Lo sviluppo di un programma di manutenzione predittiva nell’ottica “Industria 4.0” richiede una strategia ben progettata per valutare le condizioni di lavoro dell'apparecchiatura e rilevare guasti incipienti in modo tempestivo, che richiede un uso efficace sia delle misurazioni dei sensori disponibili sia della conoscenza del sistema.
  
@@ -67,20 +67,20 @@ Il caso d’uso analizzato fa riferimento all’analisi audiometrica delle condi
 
 Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a microprocessore equipaggiato con microfoni embedded.  I recenti progressi nell'architettura dei microprocessori, infatti, hanno reso possibile l'esecuzione di sofisticati carichi di lavoro di machine e deep learning anche sui microcontrollori più piccoli.  L'apprendimento «edge», noto anche come TinyML, è il campo dell'apprendimento automatico quando applicato a sistemi embedded e permette importanti vantaggi nella distribuzione di algoritmi di machine learning su tali dispositivi:
 
-•	larghezza di banda: gli algoritmi sui dispositivi edge possono estrarre informazioni significative dai dati che potrebbero altrimenti essere inaccessibile a causa di vincoli di larghezza di banda
+•	**larghezza di banda**: gli algoritmi sui dispositivi edge possono estrarre informazioni significative dai dati che potrebbero altrimenti essere inaccessibile a causa di vincoli di larghezza di banda
 
-•	latenza: i modelli su dispositivo possono rispondere in tempo reale agli input, abilitando applicazioni che non sarebbero praticabili se dipendenti dalla latenza di rete
+•	**latenza**: i modelli su dispositivo possono rispondere in tempo reale agli input, abilitando applicazioni che non sarebbero praticabili se dipendenti dalla latenza di rete
 
-•	economia: elaborando i dati su dispositivo, i sistemi integrati evitano i costi di trasmissione dei dati su una rete con elaborazione nel cloud
+•	**economia**: elaborando i dati su dispositivo, i sistemi integrati evitano i costi di trasmissione dei dati su una rete con elaborazione nel cloud
 
-•	affidabilità: i sistemi controllati da modelli on-device sono intrinsecamente più affidabili di quelli che dipendono da una connessione al cloud
+•	**affidabilità**: i sistemi controllati da modelli on-device sono intrinsecamente più affidabili di quelli che dipendono da una connessione al cloud
 
-•	privacy: quando i dati vengono elaborati su un sistema embedded e non vengono mai trasmessi al cloud, la privacy è protetta e ci sono meno possibilità di abuso
+•	**privacy**: quando i dati vengono elaborati su un sistema embedded e non vengono mai trasmessi al cloud, la privacy è protetta e ci sono meno possibilità di abuso
 
 <img src="/Images/Immagine7.png" align="left" style="width:300px;margin-left: 30px"/>
 
 
-Il sistema IIOT scelto supporta il TinyML ed è l’ultimo nato della famiglia Arduino: è il Portenta H7 con un micro STM32H747 dual core Cortex M7 a 480 MHz e un core M4 a 240 MHz, equipaggiata con due microfoni MEMS con beamforming avente 64 dB di S/N e sensitività omnidirezionale, una videocamera con risoluzione fino a QVGA (320x240) e consumo minore di 2mW.
+Il sistema IIOT scelto supporta il **TinyML** ed è l’ultimo nato della famiglia Arduino: è il **Portenta H7** con un micro STM32H747 dual core Cortex M7 a 480 MHz e un core M4 a 240 MHz, equipaggiata con due microfoni MEMS con beamforming avente 64 dB di S/N e sensitività omnidirezionale, una videocamera con risoluzione fino a QVGA (320x240) e consumo minore di 2mW.
 
 L’algoritmo è stato creato tramite la web app di Edge Impulse  (https://www.edgeimpulse.com/). Sono state considerate sequenze audio campionate a 16kHz di lunghezza temporale 10s.. L’applicazione web, per ogni campione, estrae uno spettrogramma dal segnale audio usando “key features” del tipo Mel-Filterbank Energy (MFE), usato per sistemi audio non vocali. In pratica il blocco MFE trasforma un campione audio in una tabella di dati di features in cui ogni riga rappresenta un intervallo di frequenze e ogni colonna rappresenta un arco di tempo. Il valore contenuto in ogni cella riflette il valore ampiezza della gamma di frequenze associata durante quell'intervallo di tempo. Lo spettrogramma mostra ogni cella come un blocco colorato, l'intensità che varia dipende dall'ampiezza. Le “features” tempo/frequenza MFE dal segnale considerato sono ricavate applicando una sequenza di filtri triangolari su una scala Mel, dove l’idea è quella di estrarre più features nelle frequenze più basse e meno nelle alte frequenze, adattandosi bene ai suoni che possono essere distinto dall'orecchio umano.
 
