@@ -8,8 +8,8 @@ Al centro della rivoluzione digitale della produzione ci sono diversi fattori ab
 •	l’evoluzione aziendale della cultura “data-driven”: i Big Data e Analytics stanno cambiando il volto delle aziende, i fornitori di prodotti e servizi vogliono accedere ai dati generati dalle macchine per monitorare il controllo qualità in tempo reale, migliorare efficacia complessiva delle Operations (mantenendo sotto controllo i relativi KPI, primo fra tutti l’OEE, Overall Equipment Effectiveness cioè l’efficienza complessiva della risorsa produttiva, una metrica ben nota che può essere adottata, con le opportune similitudini, anche alle realtà delle aziende di servizi) 
 
 <p align="center">
-<img src="Images\Immagine1.png"
-alt="drawing" width="300" />
+<img src="/Images/Immagine1.png"
+alt="drawing" width="600" />
 </p>
 
 
@@ -19,8 +19,8 @@ alt="drawing" width="300" />
 Anche Rai Way, nell’ottica della “digital transformation”, sta guardando al futuro con lo studio di tecniche predittive per la manutenzione.  Lo sviluppo di un programma di manutenzione predittiva nell’ottica “Industria 4.0” richiede una strategia ben progettata per valutare le condizioni di lavoro dell'apparecchiatura e rilevare guasti incipienti in modo tempestivo, che richiede un uso efficace sia delle misurazioni dei sensori disponibili sia della conoscenza del sistema.
  
 <p align="center">
-<img src="C:\Users\alber\Dropbox\Articoli\Immagine2.png"
-alt="drawing" width="300" />
+<img src="/Images/Immagine2.png"
+alt="drawing" width="600" />
 </p>
 
 Il programma deve prendere in considerazione molti fattori, tra cui:
@@ -34,8 +34,8 @@ Il programma deve prendere in considerazione molti fattori, tra cui:
 Lo studio dell’algoritmo è basilare per la predizione dell’anomalia. 
 
 <p align="center">
-<img src="C:\Users\alber\Dropbox\Articoli\Immagine3.png"
-alt="drawing" width="300" />
+<img src="/Images/Immagine3.png"
+alt="drawing" width="600" />
 </p>
  
 
@@ -50,8 +50,8 @@ Il cuore dell'algoritmo di manutenzione predittiva è il modello di rilevamento 
 Una volta identificato un algoritmo funzionante ed elaborato in modo appropriato per la generazione di una previsione, è necessario distribuirlo ed integrarlo nella piattaforma IOT.  La tendenza del mercato IIOT è quella di eseguire l'algoritmo sull’ "edge", cioè su dispositivi embedded più vicini alla macchina da controllare.
  
  <p align="center">
-<img src="C:\Users\alber\Dropbox\Articoli\Immagine4.png"
-     alt="drawing" width="300" />
+<img src="/Images/Immagine4.png"
+     alt="drawing" width="600" />
 </p>
 
 <p align="center">
@@ -64,8 +64,8 @@ In questa modalità la quantità di informazioni inviate viene ridotta in modo d
 Il caso d’uso analizzato fa riferimento all’analisi audiometrica delle condizioni di funzionamento di un sistema di raffreddamento a liquido di un sistema trasmittente DTT, composto da uno scambiatore acqua/glicole con un sistema ridondato di pompe, tramite un sistema IIOT dotato di microfono MEMS incorporato. L’idea nasce dalla collaborazione con un ingegnere indiano di Valeo e dalla collaborazione con il professor Emanuele della Valle durante il mio percorso di master in “Data Science & Business Analytics” presso la Graduate School of Management del Politecnico di Milano.
 
 <p align="center">
-<img src="C:\Users\alber\Dropbox\Articoli\Immagine5.png"
-     alt="drawing" width="300" />
+<img src="/Images/Immagine5.png"
+     alt="drawing" width="600" />
 </p>
 
 Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a microprocessore equipaggiato con microfoni embedded.  I recenti progressi nell'architettura dei microprocessori, infatti, hanno reso possibile l'esecuzione di sofisticati carichi di lavoro di machine e deep learning anche sui microcontrollori più piccoli.  L'apprendimento «edge», noto anche come TinyML, è il campo dell'apprendimento automatico quando applicato a sistemi embedded e permette importanti vantaggi nella distribuzione di algoritmi di machine learning su tali dispositivi:
@@ -81,8 +81,8 @@ Il sistema IIOT scelto supporta il TinyML ed è l’ultimo nato della famiglia A
 L’algoritmo è stato creato tramite la web app di Edge Impulse  (https://www.edgeimpulse.com/). Sono state considerate sequenze audio campionate a 16kHz di lunghezza temporale 10s.. L’applicazione web, per ogni campione, estrae uno spettrogramma dal segnale audio usando “key features” del tipo Mel-Filterbank Energy (MFE), usato per sistemi audio non vocali. In pratica il blocco MFE trasforma un campione audio in una tabella di dati di features in cui ogni riga rappresenta un intervallo di frequenze e ogni colonna rappresenta un arco di tempo. Il valore contenuto in ogni cella riflette il valore ampiezza della gamma di frequenze associata durante quell'intervallo di tempo. Lo spettrogramma mostra ogni cella come un blocco colorato, l'intensità che varia dipende dall'ampiezza. Le “features” tempo/frequenza MFE dal segnale considerato sono ricavate applicando una sequenza di filtri triangolari su una scala Mel, dove l’idea è quella di estrarre più features nelle frequenze più basse e meno nelle alte frequenze, adattandosi bene ai suoni che possono essere distinto dall'orecchio umano.
 
 <p align="center">
-<img src="C:\Users\alber\Dropbox\Articoli\Immagine6.png"
-     alt="drawing" width="300" />
+<img src="/Images/Immagine6.png"
+     alt="drawing" width="600" />
 </p>
 
 Una volta determinate le features caratteristiche, la web app le trasferisce alla rete neurale in configurazione deep learning. A tale scopo viene utilizzata una CNN a 4 livelli con convoluzione 2D seguita da un livello «flat» con in uscita un classificatore a due classi: normal, abnormal. Il classificatore produce una «confusion matrix» con accuracy pari a 98,3% e F1 pari a 0,98.
