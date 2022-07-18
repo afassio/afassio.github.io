@@ -78,6 +78,11 @@ Per la raccolta e l’analisi dei dati è stato utilizzato un sistema a micropro
 
 Il sistema IIOT scelto supporta il TinyML ed è l’ultimo nato della famiglia Arduino: è il Portenta H7 con un micro STM32H747 dual core Cortex M7 a 480 MHz e un core M4 a 240 MHz, equipaggiata con due microfoni MEMS con beamforming avente 64 dB di S/N e sensitività omnidirezionale, una videocamera con risoluzione fino a QVGA (320x240) e consumo minore di 2mW.
 
+<p align="center">
+<img src="/Images/Immagine7.png"
+alt="drawing" width="600" />
+</p>
+
 L’algoritmo è stato creato tramite la web app di Edge Impulse  (https://www.edgeimpulse.com/). Sono state considerate sequenze audio campionate a 16kHz di lunghezza temporale 10s.. L’applicazione web, per ogni campione, estrae uno spettrogramma dal segnale audio usando “key features” del tipo Mel-Filterbank Energy (MFE), usato per sistemi audio non vocali. In pratica il blocco MFE trasforma un campione audio in una tabella di dati di features in cui ogni riga rappresenta un intervallo di frequenze e ogni colonna rappresenta un arco di tempo. Il valore contenuto in ogni cella riflette il valore ampiezza della gamma di frequenze associata durante quell'intervallo di tempo. Lo spettrogramma mostra ogni cella come un blocco colorato, l'intensità che varia dipende dall'ampiezza. Le “features” tempo/frequenza MFE dal segnale considerato sono ricavate applicando una sequenza di filtri triangolari su una scala Mel, dove l’idea è quella di estrarre più features nelle frequenze più basse e meno nelle alte frequenze, adattandosi bene ai suoni che possono essere distinto dall'orecchio umano.
 
 <p align="center">
