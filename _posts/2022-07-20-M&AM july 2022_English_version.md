@@ -73,7 +73,7 @@ In this mode the amount of information sent is drastically reduced as the data i
 ### The Rai Way use case
 The analyzed use case refers to the audiometric analysis of the operating conditions of a liquid cooling system of a DTT transmitting system, consisting of a water/glycol exchanger with a redundant system of pumps, via an IIOT system equipped with a built-in MEMS microphone. The idea comes from the collaboration with an Indian engineer from Valeo, Mr. Sivan Manivannan and from the collaboration with Professor Emanuele della Valle during my master's degree in "Data Science & Business Analytics" at the Graduate School of Management of the Politecnico di Milano.
 
-<img src="/Images/Immagine5.png" align="right" style="width:400px;margin-left: 30px"/>
+<img src="/Images/Immagine5.png" align="right" style="width:400px; margin-right: 30px"/>
 
 For the collection and analysis of the data, a microprocessor system equipped with embedded microphones was used.  Recent advances in microprocessor architecture have made it possible to run sophisticated machine and deep learning workloads on even the smallest microcontrollers.  Edge learning, also known as TinyML, is the field of machine learning when applied to embedded systems and allows important advantages in deploying machine learning algorithms on such devices:
 
