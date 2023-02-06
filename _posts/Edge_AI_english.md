@@ -1,44 +1,64 @@
-# L’Edge AI: il nuovo paradigma dello sviluppo
+# The Edge AI: the new development paradigm.
 
 <p align="center">
 <img src="/Images/edgeAI.jpg"
 alt="drawing" width="700" />
 </p>
 
-> ## Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI.
+> ## In recent years, thanks in part to major social and technological changes across continents, we are experiencing an acceleration in the development of artificial intelligence, so-called AI.
 
-Grazie ai progressi degli algoritmi e alla potenza di calcolo applicata ai big data, il deep learning - il settore più brillante dell'IA - ha fatto grandi progressi in molti campi, che vanno dalla computer vision, al riconoscimento vocale e all'elaborazione del linguaggio naturale, fino alla robotica.
+Thanks to advances in algorithms and computing power applied to big data, deep learning-the most brilliant area of AI-has made great progress in many fields, ranging from computer vision, speech recognition and natural language processing to robotics.
 
-È ampiamente riconosciuto che applicazioni intelligenti stanno arricchendo in modo significativo lo stile di vita delle persone, cercando di migliorare la produttività umana e l'efficienza sociale.
+It is widely recognized that intelligent applications are significantly enriching people's lifestyles, seeking to improve human productivity and social efficiency.
 
-Come fattore chiave per lo sviluppo dell'intelligenza artificiale, i big data hanno recentemente subito un radicale trasformazione della fonte di elaborazione dei dati, passando dai data center in cloud ai dispositivi finali sempre più diffusi, quali, ad esempio i dispositivi mobili e i dispositivi Internet-of-Things (IoT) anche di tipo industriale (IIOT).
+As a key factor in the development of artificial intelligence, big data has recently undergone a radical transformation of the source of data processing, moving from cloud-based data centers to increasingly popular end devices, such as, for example, mobile devices and Internet-of-Things (IoT) devices including industrial-grade (IIOT).
 
-Tradizionalmente, i big data nascevano e venivano archiviati principalmente nei grandi hyperscales, datacenters di grandissima capacità distribuita su scala mondiale. Tuttavia, con la proliferazione del mobile computing e dell'IoT, la tendenza sta mutando: infatti gli enormi volumi di dati che devono essere spostati dai dispositivi terminali al cloud per l’elaborazione centralizzata creano un sensibile aumento dei costi di gestione delle infrastrutture di collegamento e dei tempi di elaborazione.
+Traditionally, big data was born and stored primarily in large hyperscales, datacenters of very large capacity distributed on a global scale. However, with the proliferation of mobile computing and IoT, the trend is changing: in fact, the huge volumes of data that need to be moved from terminal devices to the cloud for centralized processing create a significant increase in the cost of managing link infrastructure and processing time.
 
-Spingersi verso l'ecosistema edge non è tuttavia un’operazione banale.
+Pushing toward the edge ecosystem, however, is not a trivial task.
 
-La tendenza, infatti, era quella di trasportare le masse di dati dai dispositivi locali ai data center del cloud per l'analisi. Tuttavia, quando si sposta un'enorme quantità di dati attraverso la rete, sia il costo sia il ritardo di trasmissione possono essere proibitivi cosi come la perdita di privacy. 
+The trend, in fact, was to transport the masses of data from local devices to cloud data centers for analysis. However, when moving huge amounts of data across the network, both the cost and the transmission delay can be prohibitive as well as the loss of privacy.> ## In recent years, thanks in part to major social and technological changes across continents, we are experiencing an acceleration in the development of artificial intelligence, so-called AI.
 
-Negli ultimi anni è stato introdotto il concetto di analisi computazionale “on-device”, che esegue applicazioni di intelligenza artificiale sul dispositivo (l’”edge” appunto) per elaborare localmente i dati IoT. Tali devices, tuttavia, possono soffrire di scarse prestazioni ed efficienza energetica. Questo perché molte applicazioni di IA richiedono un'elevata potenza di calcolo che supera di gran lunga la capacità dei dispositivi IoT, che sono limitati dal punto di vista delle risorse e dell'energia.
+Thanks to advances in algorithms and computing power applied to big data, deep learning-the most brilliant area of AI-has made great progress in many fields, ranging from computer vision, speech recognition and natural language processing to robotics.
 
-> ## Per realizzare il progetto sopra descritto la comunità tecnologica a introdotto l'edge-computing, che spinge i servizi computazionali dal nucleo della rete (cloud) ai bordi della rete (edge), più vicini ai dispositivi locali e alle fonti dei dati. 
+It is widely recognized that intelligent applications are significantly enriching people's lifestyles, seeking to improve human productivity and social efficiency.
 
-Un nodo edge può essere quindi un dispositivo finale locale, collegabile tramite comunicazioni device-to-device (D2D), un server collegato a un punto di accesso (ad esempio, un WiFi Access Point, una stazione radio base), un gateway di rete o micro datacenters locali (chiamati “edge datacenter”) disponibile per l'uso da parte dei dispositivi vicini. I nodi edge possono quindi avere dimensioni molto diverse: da un computer delle dimensioni di una carta di credito a un edge datacenter con numerosi rack di server.  
+As a key factor in the development of artificial intelligence, big data has recently undergone a radical transformation of the source of data processing, moving from cloud-based data centers to increasingly popular end devices, such as, for example, mobile devices and Internet-of-Things (IoT) devices including industrial-grade (IIOT).
 
-La vicinanza fisica alle fonti di generazione delle informazioni è quindi la caratteristica più importante enfatizzata dall'edge-computing. In sostanza, la vicinanza fisica tra le fonti di elaborazione e di generazione delle informazioni permette vantaggi rispetto al tradizionale paradigma di elaborazione basato su cloud, quali la bassa latenza, l’efficienza energetica, la protezione della privacy, il consumo ridotto di larghezza di banda.
+Traditionally, big data was born and stored primarily in large hyperscales, datacenters of very large capacity distributed on a global scale. However, with the proliferation of mobile computing and IoT, the trend is changing: in fact, the huge volumes of data that need to be moved from terminal devices to the cloud for centralized processing create a significant increase in the cost of managing link infrastructure and processing time.
+
+Pushing toward the edge ecosystem, however, is not a trivial task.
+
+The trend, in fact, was to transport the masses of data from local devices to cloud data centers for analysis. However, when moving huge amounts of data across the network, both the cost and the transmission delay can be prohibitive as well as the loss of privacy.
+
+In recent years, the concept of "on-device" computational analysis, which runs artificial intelligence applications on the device (the "edge" precisely) to process IoT data locally, has been introduced. Such devices, however, can suffer from poor performance and energy efficiency. This is because many AI applications require high computing power that far exceeds the capacity of IoT devices, which are resource and energy limited.
+
+> ## To realize the above project, the technology community a introduced edge-computing, which pushes computational services from the network core (cloud) to the network edge (edge), closer to local devices and data sources. 
+
+An edge node can thus be a local end device that can be connected via device-to-device (D2D) communications, a server connected to an access point (e.g., a WiFi Access Point, a radio base station), a network gateway, or local micro datacenters (called "edge datacenters") available for use by neighboring devices. Edge nodes can thus range in size from a computer the size of a credit card to an edge datacenter with numerous racks of servers.  
+
+Physical proximity to information generation sources is thus the most important feature emphasized by edge-computing. In essence, physical proximity between processing and information generation sources enables advantages over the traditional cloud-based processing paradigm, such as low latency, energy efficiency, privacy protection, and reduced bandwidth consumption.An edge node can thus be a local end device that can be connected via device-to-device (D2D) communications, a server connected to an access point (e.g., a WiFi Access Point, a radio base station), a network gateway, or local micro datacenters (called "edge datacenters") available for use by neighboring devices. Edge nodes can thus range in size from a computer the size of a credit card to an edge datacenter with numerous racks of servers.  
+
+Physical proximity to information generation sources is thus the most important feature emphasized by edge-computing. In essence, physical proximity between processing and information generation sources enables advantages over the traditional cloud-based processing paradigm, such as low latency, energy efficiency, privacy protection, and reduced bandwidth consumption.
 
 <p align="center">
 <img src="/Images/art_edge_1.png"
 alt="drawing" width="1000" />
 </p>
 
-Il connubio tra edge computing e IA ha dato origine a una nuova area, la "***edge intelligence (EI)***" o "***edge AI***". Invece di affidarsi completamente al cloud, l'EI sfrutta le risorse edge diffuse per ottenere la potenza di calcolo desiderata.
+The marriage of edge computing and AI has given rise to a new area, "***edge intelligence (EI)***" or "***edge AI***." Instead of relying completely on the cloud, EI leverages widespread edge resources to achieve the desired computing power.
 
-Anche se l'IA è salita recentemente alla ribalta, non è un termine nuovo ed è stato coniato per la prima volta nel 1956: è un approccio per costruire macchine intelligenti in grado di svolgere compiti simili a quelli dell'uomo. Una branca dell’IA è costituita dall'apprendimento automatico (o “machine learning" - in modo abbreviato ML).
+Although AI has recently risen to prominence, it is not a new term and was first coined in 1956: it is an approach to building intelligent machines that can perform human-like tasks. One branch of AI is machine learning (or "machine learning"-shortened ML).
 
-Molte metodologie di ML, come per esempio gli alberi decisionali, il clustering K-Means, le SVM (Support Vector Machines) e le reti neurali, sono state sviluppate per addestrare la macchina a produrre classificazioni e previsioni, sulla base dei dati ottenuti dal mondo reale. 
+Many ML methodologies, for example, decision trees, K-Means clustering, SVMs (Support Vector Machines) and neural networks, have been developed to train the machine to produce classifications and predictions, based on data obtained from the real world.
 
-Tra gli algoritmi di ML più impegnativi dal punto di vista computazionale abbiamo il deep learning, che, basandosi su reti neurali “profonde”, ha portato a prestazioni molto importanti in diversi campi, tra cui la classificazione delle immagini, il riconoscimento dei volti, la classificazione dei segnali audio e così via. Poiché le reti neurali profonde consistono tipicamente in una serie di layers, il modello è chiamato rete neurale profonda (DNN) in cui ogni strato di una DNN è composto da neuroni che sono in grado di generare uscite non lineari sulla base dei dati provenienti dall'ingresso del neurone.
+Among the most computationally demanding ML algorithms we have deep learning, which, relying on "deep" neural networks, has led to very important performance in several fields, including image classification, face recognition, audio signal classification, and so on. Since deep neural networks typically consist of a series of layers, the model is called a deep neural network (DNN) in which each layer of a DNN is composed of neurons that are able to generate nonlinear outputs based on data from the neuron input.The marriage of edge computing and AI has given rise to a new area, "***edge intelligence (EI)***" or "***edge AI***." Instead of relying completely on the cloud, EI leverages widespread edge resources to achieve the desired computing power.
+
+Although AI has recently risen to prominence, it is not a new term and was first coined in 1956: it is an approach to building intelligent machines that can perform human-like tasks. One branch of AI is machine learning (or "machine learning"-shortened ML).
+
+Many ML methodologies, for example, decision trees, K-Means clustering, SVMs (Support Vector Machines) and neural networks, have been developed to train the machine to produce classifications and predictions, based on data obtained from the real world.
+
+Among the most computationally demanding ML algorithms we have deep learning, which, relying on "deep" neural networks, has led to very important performance in several fields, including image classification, face recognition, audio signal classification, and so on. Since deep neural networks typically consist of a series of layers, the model is called a deep neural network (DNN) in which each layer of a DNN is composed of neurons that are able to generate nonlinear outputs based on data from the neuron input.
 
 <p align="center">
 <img src="/Images/art_edge_2.png"
@@ -50,42 +70,67 @@ alt="drawing" width="500" />
 alt="drawing" width="1000" />
 </p>
  
+By feeding a large number of training samples and repeating this process until the error rate is below a predefined threshold, a learning model with high accuracy is obtained.
 
-Alimentando un gran numero di campioni di addestramento e ripetendo questo processo finché il tasso di errore non è inferiore a una soglia predefinita, si ottiene un modello di apprendimento con un'elevata precisione.
+Inference (i.e., prediction based on new data) of the model occurs after training. For example, for image classification, by feeding a large number of training samples, a DNN is trained to learn to recognize an image; then, inference takes real-world images as input and quickly derives predictions/classifications from them.
 
-L'inferenza (vale a dire la predizione in base a nuovi dati) del modello avviene dopo l'addestramento. Ad esempio, per la classificazione di immagini, con l'alimentazione di un gran numero di campioni di addestramento, viene addestrata una DNN per imparare a riconoscere un'immagine; quindi, l'inferenza prende in input le immagini del mondo reale e ne ricava rapidamente le previsioni/classificazioni. 
+Edge-computing has lately become critical for applications that leverage the above algorithms for real-time inference, as edge-computing aims to coordinate a multitude of collaborative edge devices and servers to process data generated in close proximity.
 
-L'edge-computing è ultimamente diventato fondamentale per applicazioni che sfruttano i suddetti algoritmi per avere inferenze in tempo reale, dato che l'edge-computing mira a coordinare una moltitudine di dispositivi e server edge collaborativi per elaborare i dati generati in prossimità.
+As a result of the proliferation of the number and types of mobile and IoT devices, large volumes of multimodal data (e.g., audio, image, and video) from the environment are continuously being collected from the device side. In this context, Edge-AI is indispensable because of its ability to rapidly analyze these huge volumes of data and extract useful information from them to make high-quality decisions.
 
-A seguito della proliferazione del numero e dei tipi di dispositivi mobili e IoT, grandi volumi di dati multimodali (ad esempio, audio, immagini e video) provenienti dell'ambiente vengono continuamente rilevati dal lato dei dispositivi. In questo contesto, l'Edge-AI risulta indispensabile per la sua capacità di analizzare rapidamente questi enormi volumi di dati e di estrarre da essi informazioni utili per prendere decisioni di alta qualità. 
+In fact, deep learning offers the ability to automatically identify patterns and detect anomalies in data sensed at the edge, such as traffic flow in smart cities, telemedicine, environmental, electrical and audio data to capture anomalies in machine operation, and autonomous driving.
 
-Il deep learning, infatti, offre la capacità di identificare automaticamente modelli e rilevare anomalie nei dati rilevati all’edge, come ad esempio il flusso del traffico nelle smart cities, la telemedicina, i dati ambientali, elettrici e audio per catturare le anomalie di funzionamento delle macchine, la guida autonoma.
+The predictions extracted from the model built on the sensed data are then used for real-time predictive decision making in response to rapidly changing environments, increasing operational efficiency.
 
-Le predizioni estratte dal modello costruito sui dati rilevati vengono poi utilizzate per il processo decisionale predittivo in tempo reale in risposta agli ambienti in rapida evoluzione, aumentando l'efficienza operativa.
+As a further enhancement in the past couple of years, the paradigm of running AI algorithms locally on an end device with data (sensor data or signals) processed on the device, so-called "***TinyML***," is gaining momentum, although such processing is limited by the performance of the microprocessors used on the end devices.By feeding a large number of training samples and repeating this process until the error rate is below a predefined threshold, a learning model with high accuracy is obtained.
 
-Come ulteriore miglioramento in questi ultimi due anni sta prendendo piede il paradigma dell'esecuzione di algoritmi di IA a livello locale su un dispositivo finale, con dati (dati di sensori o segnali) elaborati sul dispositivo, la cosiddetta “***TinyML***”, anche se tali elaborazioni sono limitate dalle prestazioni dei microprocessori utilizzati sui devices finali.
+Inference (i.e., prediction based on new data) of the model occurs after training. For example, for image classification, by feeding a large number of training samples, a DNN is trained to learn to recognize an image; then, inference takes real-world images as input and quickly derives predictions/classifications from them.
+
+Edge-computing has lately become critical for applications that leverage the above algorithms for real-time inference, as edge-computing aims to coordinate a multitude of collaborative edge devices and servers to process data generated in close proximity.
+
+As a result of the proliferation of the number and types of mobile and IoT devices, large volumes of multimodal data (e.g., audio, image, and video) from the environment are continuously being collected from the device side. In this context, Edge-AI is indispensable because of its ability to rapidly analyze these huge volumes of data and extract useful information from them to make high-quality decisions.
+
+In fact, deep learning offers the ability to automatically identify patterns and detect anomalies in data sensed at the edge, such as traffic flow in smart cities, telemedicine, environmental, electrical and audio data to capture anomalies in machine operation, and autonomous driving.
+
+The predictions extracted from the model built on the sensed data are then used for real-time predictive decision making in response to rapidly changing environments, increasing operational efficiency.
+
+As a further enhancement in the past couple of years, the paradigm of running AI algorithms locally on an end device with data (sensor data or signals) processed on the device, so-called "***TinyML***," is gaining momentum, although such processing is limited by the performance of the microprocessors used on the end devices.
 
 <p align="center">
 <img src="/Images/art_edge_4.png"
 alt="drawing" width="700" />
 </p>
  
+Here then is where Edge-Ai can be well represented with the computational marriage between edge data centers and end devices, depending on the performance to be achieved. It is what enables the "democratization of AI" today, that is, the vision of "making AI usable for every person and every organization, everywhere."
 
-Ecco che dunque la Edge-Ai può essere bene rappresentata con il connubio computazionale fra edge data centers e devices finali, a seconda delle prestazioni che devono essere ottenute. E’ ciò che oggi permette la “democratizzazione dell'IA”, cioè la visione di "rendere fruibile l'IA per ogni persona e ogni organizzazione, ovunque".
- 
-L'ambito di applicazione dell'IE, tuttavia, non deve essere limitato all'esecuzione di modelli di intelligenza artificiale esclusivamente sul server o sul dispositivo edge. Infatti, come dimostrato da studi sulla materia, per i modelli DNN, l'esecuzione con la sinergia edge-cloud può ridurre sia la latenza end-to-end sia il consumo energetico rispetto all'approccio di esecuzione locale. 
+The scope of EI, however, should not be limited to running AI models exclusively on the server or edge device. In fact, as studies on the subject have shown, for DNN models, execution with edge-cloud synergy can reduce both end-to-end latency and energy consumption compared to the local execution approach.
 
-L'IE deve essere il paradigma che sfrutta appieno i dati e le risorse disponibili nella gerarchia dei dispositivi finali, dei nodi edge e dei data center del cloud per ottimizzare le prestazioni complessive dell'addestramento e dell'inferenza di un modello DNN. Tuttavia questo non significa necessariamente che il modello DNN sia completamente addestrato o inferenziato all'edge, ma che può funzionare in modo coordinato cloud-edge-device tramite l'offloading dei dati. In particolare, in base alla quantità e alla lunghezza del percorso di offloading dei dati, classifichiamo l'EI in sei livelli, come illustrato nella figura.
+IE should be the paradigm that fully exploits the data and resources available in the end-device, edge node, and cloud data center hierarchy to optimize the overall training and inference performance of a DNN model. However, this does not necessarily mean that the DNN model is fully trained or inferred at the edge, but that it can perform in a coordinated cloud-edge-device manner through data offloading. Specifically, based on the amount and length of the data offloading path, we classify EI into six levels, as shown in Fig.
 
-In particolare, è possibile  definire sette livelli [1] costituenti un continuum tra il cloud computing degli hyperscales, gli edge datacenter e i device finali.
+Specifically, seven levels [1] can be defined constituting a continuum between the cloud computing of hyperscales, edge datacenters and end devices.
 
-1.	***Livello 0***: addestramento e inferenza completamente nel cloud
-2.	***Livello 1***: addestramento nel cloud, ma inferenza in modo cooperativo edge-cloud; in questo caso, la cooperazione edge-cloud implica lo scarico parziale dei dati nel cloud
-3.	***Livello 2***: addestramento nel cloud, ma l’inferenza viene eseguita “in-edge”, il che può essere realizzato scaricando completamente o parzialmente i dati sui server edge o su dispositivi vicini
-4.	***Livello 3***: addestramento nel cloud e inferenza sul dispositivo finale "on-device": in questo caso non viene scaricato alcun dato sul server edge 
-5.	***Livello 4***: addestramento e inferenza in modalità di cooperazione edge-cloud
-6.	***Livello 5***: addestramento e inferenza in modalità in-edge, cioè sui server edge
-7.	***Livello 6***: addestramento e inferenza del modello DNN in modalità on-device
+1.***Level 0***: training and inference completely in the cloud
+2.***Level 1***: training in the cloud, but inference cooperatively edge-cloud; in this case, edge-cloud cooperation implies partial offloading of data to the cloud
+3.***Level 2***: training in the cloud, but inference is performed "in-edge," which can be accomplished by fully or partially offloading data to edge servers or nearby devices
+4.***Level 3***: training in the cloud and inference on the end device "on-device": in this case no data is downloaded to the edge server
+5.***Level 4***: training and inference in edge-cloud cooperation mode
+6.***Level 5***: training and inference in in-edge mode, i.e., on edge servers
+7.***Level 6***: DNN model training and inference in on-device mode
+
+Here then is where Edge-Ai can be well represented with the computational marriage between edge data centers and end devices, depending on the performance to be achieved. It is what enables the "democratization of AI" today, that is, the vision of "making AI usable for every person and every organization, everywhere."
+
+The scope of EI, however, should not be limited to running AI models exclusively on the server or edge device. In fact, as studies on the subject have shown, for DNN models, execution with edge-cloud synergy can reduce both end-to-end latency and energy consumption compared to the local execution approach.
+
+IE should be the paradigm that fully exploits the data and resources available in the end-device, edge node, and cloud data center hierarchy to optimize the overall training and inference performance of a DNN model. However, this does not necessarily mean that the DNN model is fully trained or inferred at the edge, but that it can perform in a coordinated cloud-edge-device manner through data offloading. Specifically, based on the amount and length of the data offloading path, we classify EI into six levels, as shown in Fig.
+
+Specifically, seven levels [1] can be defined constituting a continuum between the cloud computing of hyperscales, edge datacenters and end devices.
+1.***Level 0***: training and inference completely in the cloud
+2.***Level 1***: training in the cloud, but inference cooperatively edge-cloud; in this case, edge-cloud cooperation implies partial offloading of data to the cloud
+3.***Level 2***: training in the cloud, but inference is performed "in-edge," which can be accomplished by fully or partially offloading data to edge servers or nearby devices
+4.***Level 3***: training in the cloud and inference on the end device "on-device": in this case no data is downloaded to the edge server
+5.***Level 4***: training and inference in edge-cloud cooperation mode
+6.***Level 5***: training and inference in in-edge mode, i.e., on edge servers
+7.***Level 6***: DNN model training and inference in on-device mode
 
 <p align="center">
 <img src="/Images/art_edge_5.gif"
@@ -93,61 +138,108 @@ alt="drawing" width="700" />
 </p>
  
 
-All'aumentare del livello di EI, la quantità e la lunghezza del percorso di offloading dei dati si riducono. Di conseguenza, la latenza di trasmissione dell'offloading dei dati diminuisce, la privacy dei dati aumenta e il costo della larghezza di banda WAN si riduce. Tuttavia, questo risultato è ottenuto al costo di un aumento della latenza computazionale e del consumo energetico. 
+As the level of EI increases, the amount and path length of data offloading decreases. As a result, data offloading transmission latency decreases, data privacy increases, and WAN bandwidth cost is reduced. However, this is achieved at the cost of increased computational latency and energy consumption.
 
-Questo conflitto indica che non esiste un "livello migliore" in generale; piuttosto, il "livello migliore" di IE dipende dall'applicazione e deve essere determinato considerando congiuntamente più criteri come la latenza, l'efficienza energetica, la privacy e il costo della larghezza di banda WAN. 
+This conflict indicates that there is no "best level" in general; rather, the "best level" of IE depends on the application and must be determined by jointly considering multiple criteria such as latency, energy efficiency, privacy, and WAN bandwidth cost.
 
-Le architetture di addestramento distribuito di DNN all'edge possono essere suddivise in tre modalità: centralizzata, decentralizzata e ibrida.
+Distributed DNN training architectures at the edge can be divided into three modes: centralized, decentralized and hybrid.
 
-Nella modalità centralizzata il modello DNN viene addestrato nel datacenter del cloud. I dati per l'addestrame sorveglianza. Una volta ricevuti i dati, il datacenter cnto sono generati e raccolti da dispositivi finali distribuiti, come telefoni cellulari, automobili e telecamere diloud esegue l'addestramento DNN utilizzando questi dati. Pertanto, il sistema basato sull'architettura centralizzata può essere identificato in cloud intelligence di livello 0, livello 1, livello 2 o livello 3 a seconda del tipo di inferenza utilizzato.
+In the centralized mode, the DNN model is trained in the cloud datacenter. The data for training surveillance. Once the data is received, the datacenter cnto are generated and collected from distributed end devices, such as cell phones, cars, and diloud cameras performs DNN training using this data. Therefore, the system based on the centralized architecture can be identified in cloud intelligence level 0, level 1, level 2 or level 3 depending on the type of inference used.
 
-Nella modalità decentrata, ogni server edge/dispositivo locale addestra localmente il proprio modello DNN con dati locali, preservando le informazioni private a livello locale. Per ottenere il modello DNN globale devono essere condivise le migliorie apportate all'addestramento locale; pertanto i nodi della rete comunicheranno tra loro per scambiarsi gli aggiornamenti del modello locale. Questa modalità corrisponde al livello 5 di EI.
+In the decentralized mode, each edge server/local device locally trains its own DNN model with local data, preserving private information locally. In order to obtain the global DNN model, improvements to the local training must be shared; therefore, nodes in the network will communicate with each other to exchange updates to the local model. This mode corresponds to EI level 5.
 
-L’ultima modalità è quella ibrida, in cui vengono combinate la modalità centralizzata e quella decentralizzata. In questo caso gli edge server possono addestrare il modello DNN sia tramite aggiornamenti decentralizzati tra loro, sia tramite l'addestramento centralizzato con il cloud datacenter. Questa modalità corrisponde al livello 4 e 5 di EI.
+The last mode is the hybrid mode, in which the centralized and decentralized modes are combined. In this case, edge servers can train the DNN model either through decentralized updates with each other or through centralized training with the cloud datacenter. This mode corresponds to EI levels 4 and 5.
 
-Come ho giá avuto modo di anticipare nel corso dell’articolo, i parametri caratteristici da monitorare nell’implementazione di un modello EI sono la banda e l’efficienza energetica, la latenza, il costo della comunicazione, l’affidabilità, la sicurezza. Per ricordarli è stato coniato l’acronimo ***BLERP*** (Bandwith, Latency, Economics, Reliability, Privacy) da Jeff Bier, fondatore di EDGE AI e Vision Alliance.
+As I have already anticipated throughout the article, the characteristic parameters to be monitored in the implementation of an EI model are bandwidth and energy efficiency, latency, communication cost, reliability, and security. To remind us of these, the acronym ***BLERP*** (Bandwith, Latency, Economics, Reliability, Privacy) was coined by Jeff Bier, founder of EDGE AI and Vision Alliance.
+154As the level of EI increases, the amount and path length of data offloading decreases. As a result, data offloading transmission latency decreases, data privacy increases, and WAN bandwidth cost is reduced. However, this is achieved at the cost of increased computational latency and energy consumption.
 
-Analizziamo nel seguito come influiscono nella fase di addestramento.
+This conflict indicates that there is no "best level" in general; rather, the "best level" of IE depends on the application and must be determined by jointly considering multiple criteria such as latency, energy efficiency, privacy, and WAN bandwidth cost.
 
-L'addestramento del modello complesso è ad alta intensità di dati, poiché i dati grezzi o intermedi devono essere trasferiti tra i nodi. Intuitivamente, questo overhead di comunicazione aumenta l'energia, il consumo di banda e latenza di addestramento. L'overhead di comunicazione è quindi influenzato dalla dimensione dei dati di input originali, dalla modalità di trasmissione e dalla larghezza di banda disponibile.
-Quindi anche l’efficienza energetica può essere considerata un parametro legato alla banda (quantità di dati che devono essere trasmessi). Quando si addestra il modello tipo DNN in modo decentralizzato, per esempio, sia il processo di calcolo sia quello di comunicazione consumano molta energia. Tuttavia, per la maggior parte dei dispositivi finali, l'energia è limitata (alimentazione a batteria). Di conseguenza è necessario che l'addestramento del modello sia efficiente dal punto di vista energetico.
+Distributed DNN training architectures at the edge can be divided into three modes: centralized, decentralized and hybrid.
 
-La latenza è probabilmente uno degli indicatori più importanti dell'addestramento distribuito poiché influenza direttamente il momento in cui il modello addestrato è disponibile per l'uso. La latenza del processo di addestramento distribuito consiste tipicamente nella latenza di calcolo e nella latenza di comunicazione. La latenza di calcolo dipende strettamente dalla capacità dei nodi edge (edge datacenters e nodi finali). La latenza di comunicazione può variare dalla dimensione dei dati grezzi o intermedi trasmessi e dalla larghezza di banda della connessione di rete.
+In the centralized mode, the DNN model is trained in the cloud datacenter. The data for training surveillance. Once the data is received, the datacenter cnto are generated and collected from distributed end devices, such as cell phones, cars, and diloud cameras performs DNN training using this data. Therefore, the system based on the centralized architecture can be identified in cloud intelligence level 0, level 1, level 2 or level 3 depending on the type of inference used.
 
-La connettività di un device costa molto in termini economici. Più banda è richiesta, più il costo aumenta. Effettuare l’addestramento sull’edge (sugli edge datacenters o dove possibile sui devices locali) permette un risparmio economico notevole. In ogni caso l’impatto economico non deve essere trascurato perché non sempre è possibile risolverlo con l’introduzione dell’edge-computing.
+In the decentralized mode, each edge server/local device locally trains its own DNN model with local data, preserving private information locally. In order to obtain the global DNN model, improvements to the local training must be shared; therefore, nodes in the network will communicate with each other to exchange updates to the local model. This mode corresponds to EI level 5.
 
-Anche la privacy dei dati non deve essere trascurata. Limitare la connettività all’edge preserva la privacy dei dati, dato che non devono essere trasmessi attraverso la rete di comunicazione con il cloud. Per esempio, nel caso della video analisi, piuttosto che effettuare lo streaming video e audio ad un server remoto, può essere utilizzata l’”intelligenza” racchiusa in una telecamera predisposta per EI per elaborare gli algoritmi di apprendimento con DNN.
+The last mode is the hybrid mode, in which the centralized and decentralized modes are combined. In this case, edge servers can train the DNN model either through decentralized updates with each other or through centralized training with the cloud datacenter. This mode corresponds to EI levels 4 and 5.
 
-Vediamo ora le tipologie di architetture che possono essere utilizzate per l’inferenza.
+As I have already anticipated throughout the article, the characteristic parameters to be monitored in the implementation of an EI model are bandwidth and energy efficiency, latency, communication cost, reliability, and security. To remind us of these, the acronym ***BLERP*** (Bandwith, Latency, Economics, Reliability, Privacy) was coined by Jeff Bier, founder of EDGE AI and Vision Alliance.
+
+We analyze in the following how they affect the training phase.
+
+Complex model training is data-intensive because raw or intermediate data must be transferred between nodes. Intuitively, this communication overhead increases the energy, bandwidth consumption and latency of training. Thus, the communication overhead is affected by the size of the original input data, the transmission mode, and the available bandwidth.
+
+Thus, energy efficiency can also be considered as a bandwidth-related parameter (amount of data that needs to be transmitted). When training the DNN-type model in a decentralized way, for example, both the computation and communication processes consume a lot of energy. However, for most end devices, energy is limited (battery power). As a result, it is necessary for model training to be energy efficient.
+
+Latency is probably one of the most important indicators of distributed training because it directly affects the time when the trained model is available for use. The latency of the distributed training process typically consists of computation latency and communication latency. The computation latency is strictly dependent on the capacity of the edge nodes (edge datacenters and end nodes). Communication latency may vary from the size of the raw or intermediate data transmitted and the bandwidth of the network connection.
+
+Device connectivity costs a lot in economic terms. The more bandwidth required, the more the cost increases. Doing the training on the edge (on edge datacenters or where possible on local devices) saves a lot of money. In any case, the economic impact should not be overlooked because it cannot always be solved by introducing edge-computing.
+
+Data privacy should also not be neglected. Limiting connectivity to the edge preserves the privacy of the data, since it should not be transmitted through the communication network with the cloud. For example, in the case of video analytics, rather than streaming video and audio to a remote server, the "intelligence" encapsulated in an EI-ready camera can be used to process learning algorithms with DNN.
+
+Let us now look at the types of architectures that can be used for inference.We analyze in the following how they affect the training phase.
+
+Complex model training is data-intensive because raw or intermediate data must be transferred between nodes. Intuitively, this communication overhead increases the energy, bandwidth consumption and latency of training. Thus, the communication overhead is affected by the size of the original input data, the transmission mode, and the available bandwidth.
+
+Thus, energy efficiency can also be considered as a bandwidth-related parameter (amount of data that needs to be transmitted). When training the DNN-type model in a decentralized way, for example, both the computation and communication processes consume a lot of energy. However, for most end devices, energy is limited (battery power). As a result, it is necessary for model training to be energy efficient.
+
+Latency is probably one of the most important indicators of distributed training because it directly affects the time when the trained model is available for use. The latency of the distributed training process typically consists of computation latency and communication latency. The computation latency is strictly dependent on the capacity of the edge nodes (edge datacenters and end nodes). Communication latency may vary from the size of the raw or intermediate data transmitted and the bandwidth of the network connection.
+
+Device connectivity costs a lot in economic terms. The more bandwidth required, the more the cost increases. Doing the training on the edge (on edge datacenters or where possible on local devices) saves a lot of money. In any case, the economic impact should not be overlooked because it cannot always be solved by introducing edge-computing.
+
+Data privacy should also not be neglected. Limiting connectivity to the edge preserves the privacy of the data, since it should not be transmitted through the communication network with the cloud. For example, in the case of video analytics, rather than streaming video and audio to a remote server, the "intelligence" encapsulated in an EI-ready camera can be used to process learning algorithms with DNN.
+
+Let us now look at the types of architectures that can be used for inference.
 
 <p align="center">
 <img src="/Images/art_edge_6.gif"
 alt="drawing" width="1000" />
 </p>
  
-a) ***Modalità edge-based***:  il dispositivo A è in modalità edge-based, il che significa che il dispositivo riceve i dati di input e li invia al server edge. Quando l'inferenza viene eseguita dall'edge server, i risultati della predizione vengono restituiti al dispositivo. In questa modalità di inferenza, poiché il modello si trova sull'edge server, è facile implementare l'applicazione su diverse piattaforme mobili. Tuttavia, lo svantaggio principale è che le prestazioni di inferenza dipendono dalla larghezza di banda della rete tra il dispositivo e l'edge server.
+(a) ***Edge-based mode***: Device A is in edge-based mode, which means that the device receives input data and sends it to the edge server. When inference is performed by the edge server, the prediction results are returned to the device. In this inference mode, since the model is on the edge server, it is easy to deploy the application on different mobile platforms. However, the main disadvantage is that the inference performance depends on the network bandwidth between the device and the edge server.
 
-b) ***Modalità basata sul dispositivo***: il dispositivo B è in modalità device-based. Il dispositivo mobile ottiene il modello dall'edge server ed esegue l'inferenza del modello a livello locale. Durante il processo di inferenza, il dispositivo mobile non comunica con l'edge server. Pertanto, l'inferenza è affidabile, ma richiede una grande quantità di risorse come CPU, GPU e RAM sul dispositivo mobile. Le prestazioni dipendono dal dispositivo locale stesso.
+(b) ***Device-based mode***: Device B is in device-based mode. The mobile device obtains the model from the edge server and performs model inference locally. During the inference process, the mobile device does not communicate with the edge server. Therefore, the inference is reliable, but it requires a large amount of resources such as CPU, GPU and RAM on the mobile device. The performance depends on the local device itself.
 
-c) ***Modalità Edge-Device***: il dispositivo C è in modalità edge-device. Nella modalità edge-device, il dispositivo per prima cosa partiziona il modello in più parti in base ai fattori ambientali del sistema connesso, come la larghezza di banda della rete, le risorse del dispositivo e il carico di lavoro del server edge. Quindi, il dispositivo esegue il modello fino a un livello specifico e invia i dati intermedi all'edge server. L'edge server esegue i livelli rimanenti e invia i risultati della previsione al dispositivo. Rispetto alle modalità edge-based e device-based, la modalità edge-device è più affidabile e flessibile.
+(c) ***Edge-Device Mode***: The C device is in edge-device mode. In edge-device mode, the device first partitions the model into multiple parts based on the environmental factors of the connected system, such as network bandwidth, device resources, and edge server workload. Then, the device executes the model up to a specific layer and sends the intermediate data to the edge server. The edge server runs the remaining layers and sends the prediction results to the device. Compared with the edge-based and device-based modes, the edge-device mode is more reliable and flexible.
 
-d) ***Modalità Edge-Cloud***: il dispositivo D è in modalità edge-cloud. È simile alla modalità edge-device ed è adatta al caso in cui il dispositivo sia fortemente limitato nelle risorse. In questa modalità, il dispositivo è responsabile della raccolta dei dati di input e il modello viene eseguito attraverso la sinergia edge-cloud. Le prestazioni di questo modello dipendono fortemente dalla qualità della connessione di rete.
+d) ***Edge-Cloud Mode***: Device D is in edge-cloud mode. It is similar to the edge-device mode and is suitable for the case where the device is severely limited in resources. In this mode, the device is responsible for collecting input data and the model is executed through edge-cloud synergy. The performance of this model is highly dependent on the quality of the network connection.
+206(a) ***Edge-based mode***: Device A is in edge-based mode, which means that the device receives input data and sends it to the edge server. When inference is performed by the edge server, the prediction results are returned to the device. In this inference mode, since the model is on the edge server, it is easy to deploy the application on different mobile platforms. However, the main disadvantage is that the inference performance depends on the network bandwidth between the device and the edge server.
 
-Va sottolineato che le quattro modalità di inferenza edge-centriche sopra menzionate possono essere adottate simultaneamente in un sistema per eseguire compiti complessi di inferenza di modelli AI (ad esempio, gerarchia cloud-edge-device), utilizzando in modo efficiente risorse eterogenee tra una moltitudine di dispositivi finali, nodi edge e cloud.
+(b) ***Device-based mode***: Device B is in device-based mode. The mobile device obtains the model from the edge server and performs model inference locally. During the inference process, the mobile device does not communicate with the edge server. Therefore, the inference is reliable, but it requires a large amount of resources such as CPU, GPU and RAM on the mobile device. The performance depends on the local device itself.
 
-Gli stessi parametri considerati per i processi di addestramento devono essere considerati per l’inferenza, soprattutto per i livelli EI che interessano i dispositivi edge più che i server edge.
+(c) ***Edge-Device Mode***: The C device is in edge-device mode. In edge-device mode, the device first partitions the model into multiple parts based on the environmental factors of the connected system, such as network bandwidth, device resources, and edge server workload. Then, the device executes the model up to a specific layer and sends the intermediate data to the edge server. The edge server runs the remaining layers and sends the prediction results to the device. Compared with the edge-based and device-based modes, the edge-device mode is more reliable and flexible.
 
-I devices locali spesso catturano più dati della banda trasmissiva a disposizione. Immaginiamo un sensore intelligente che controlli le vibrazioni di una macchina industriale tramite l’acquisizione di segnali audio su cui effettuare l’inferenza. I dati raccolti possono essere milioni in brevissimo tempo. Cosa potrebbe succedere se non venissero elaborati tutti o il sensore perdesse dati fondamentali poco prima della rottura? Cosa potrebbe succedere se, visto l’altissimo numero di campioni raccolti, avvenisse la parziale perdita legata all’efficienza energetica del device? [2]
+d) ***Edge-Cloud Mode***: Device D is in edge-cloud mode. It is similar to the edge-device mode and is suitable for the case where the device is severely limited in resources. In this mode, the device is responsible for collecting input data and the model is executed through edge-cloud synergy. The performance of this model is highly dependent on the quality of the network connection.
 
-Per quanto riguarda la latenza, per esempio, per alcune applicazioni mobili intelligenti in tempo reale (ad esempio, telemedicina, giochi mobili AR/VR e robot intelligenti), i requisiti sono molto stringenti, come ad esempio la latenza di 100 ms. Anche l’energia ha per l’inferenza stretti vincoli a causa dell’alimentazione a batteria dei device e dell’energia necessaria al calcolo.
+It should be emphasized that the four edge-centric inference modes mentioned above can be adopted simultaneously in a system to perform complex AI pattern inference tasks (e.g., cloud-edge-device hierarchy), efficiently using heterogeneous resources among a multitude of end-devices, edge nodes and clouds.
 
-Ad eccezione della modalità basata sul dispositivo, l'overhead di comunicazione influisce notevolmente sulle prestazioni di inferenza delle altre modalità
+The same parameters considered for training processes must be considered for inference, especially for EI layers that affect edge devices more than edge servers.
 
-Anche l'utilizzo di memoria nell'esecuzione dell'inferenza soprattutto sui dispositivi mobili è un parametro da valutare attentamente. Da un lato, infatti, un modello DNN è accompagnato da milioni di parametri, il che può risultare molto impegnativo per le risorse hardware dei dispositivi mobili. D'altra parte, a differenza delle GPU discrete ad alte prestazioni dei data center, non esiste una memoria dedicata ad alta larghezza di banda per le GPU sui dispositivi mobili. Inoltre, le CPU e le GPU mobili sono tipicamente in competizione per la larghezza di banda della memoria condivisa e scarsa. Per l'ottimizzazione dell'inferenza DNN sul lato edge, l'ingombro della memoria è un indicatore non trascurabile. L'impronta di memoria è influenzata principalmente dalle dimensioni del modello DNN originale e dal modo in cui vengono caricati i tremendi parametri DNN.
+Local devices often capture more data than the available transmission bandwidth. Imagine a smart sensor monitoring the vibration of an industrial machine by capturing audio signals on which to perform inference. The data collected can be millions in a very short time. What might happen if all of them were not processed or the sensor lost crucial data just before breaking down? What could happen if, given the very large number of samples collected, the partial loss related to the energy efficiency of the device occurred? [2]
 
-Con questo articolo ho cercato di evidenziare le caratteristiche peculiari dell’Edge AI e come esso rappresenti il nuovo paradigma per lo sviluppo. Si apre quindi la strada a una vasta gamma di nuove applicazioni in cui è necessaria l’estrema reattività del sistema computazionale. 
+Regarding latency, for example, for some real-time intelligent mobile applications (e.g., telemedicine, AR/VR mobile games, and intelligent robots), the requirements are very stringent, such as 100 ms latency. Energy also has tight constraints for inference because of the battery power of the devices and the energy required for computation.
 
-In sintesi, l'Edge AI sta rivoluzionando il mondo fino ad ora conosciuto facendo si che i dati in realtime diventino centrali nello sviluppo economico e tecnologico, dando vita a una nuova era, quella dell'intelligenza artificiale decentralizzata.
+With the exception of the device-based mode, the communication overhead greatly affects the inference performance of the other modes
+
+Memory usage in performing inference especially on mobile devices is also a parameter to be carefully evaluated. Indeed, on the one hand, a DNN model comes with millions of parameters, which can be very demanding on the hardware resources of mobile devices. On the other hand, unlike high-performance discrete GPUs in data centers, there is no dedicated high-bandwidth memory for GPUs on mobile devices. In addition, CPUs and mobile GPUs typically compete for shared and scarce memory bandwidth. For edge-side DNN inference optimization, memory footprint is a non-negligible indicator. The memory footprint is mainly affected by the size of the original DNN model and the way the tremendous DNN parameters are loaded.
+
+With this article I have tried to highlight the special features of Edge AI and how it represents the new paradigm for development. It thus opens the way for a wide range of new applications in which the extreme responsiveness of the computational system is required.
+
+In summary, Edge AI is revolutionizing the hitherto known world by making realtime data central to economic and technological development, ushering in a new era, that of decentralized artificial intelligence.It should be emphasized that the four edge-centric inference modes mentioned above can be adopted simultaneously in a system to perform complex AI pattern inference tasks (e.g., cloud-edge-device hierarchy), efficiently using heterogeneous resources among a multitude of end-devices, edge nodes and clouds.
+
+The same parameters considered for training processes must be considered for inference, especially for EI layers that affect edge devices more than edge servers.
+
+Local devices often capture more data than the available transmission bandwidth. Imagine a smart sensor monitoring the vibration of an industrial machine by capturing audio signals on which to perform inference. The data collected can be millions in a very short time. What might happen if all of them were not processed or the sensor lost crucial data just before breaking down? What could happen if, given the very large number of samples collected, the partial loss related to the energy efficiency of the device occurred? [2]
+
+Regarding latency, for example, for some real-time intelligent mobile applications (e.g., telemedicine, AR/VR mobile games, and intelligent robots), the requirements are very stringent, such as 100 ms latency. Energy also has tight constraints for inference because of the battery power of the devices and the energy required for computation.
+
+With the exception of the device-based mode, the communication overhead greatly affects the inference performance of the other modes
+
+Memory usage in performing inference especially on mobile devices is also a parameter to be carefully evaluated. Indeed, on the one hand, a DNN model comes with millions of parameters, which can be very demanding on the hardware resources of mobile devices. On the other hand, unlike high-performance discrete GPUs in data centers, there is no dedicated high-bandwidth memory for GPUs on mobile devices. In addition, CPUs and mobile GPUs typically compete for shared and scarce memory bandwidth. For edge-side DNN inference optimization, memory footprint is a non-negligible indicator. The memory footprint is mainly affected by the size of the original DNN model and the way the tremendous DNN parameters are loaded.
+
+With this article I have tried to highlight the special features of Edge AI and how it represents the new paradigm for development. It thus opens the way for a wide range of new applications in which the extreme responsiveness of the computational system is required.
+
+In summary, Edge AI is revolutionizing the hitherto known world by making realtime data central to economic and technological development, ushering in a new era, that of decentralized artificial intelligence.
 
 
 [1] cfr. Daniel Situnayake, Jenny Plunkett “AI at the Edge” O’Reilly e  Zhou e altri: “Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing”, Proceedings of IEEE
