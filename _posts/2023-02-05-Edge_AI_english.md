@@ -101,13 +101,13 @@ As the level of EI increases, the amount and path length of data offloading decr
 
 This conflict indicates that there is no "best level" in general; rather, the "best level" of IE depends on the application and must be determined by jointly considering multiple criteria such as latency, energy efficiency, privacy, and WAN bandwidth cost.
 
-Distributed DNN training architectures at the edge can be divided into three modes: centralized, decentralized and hybrid.
+Distributed DNN training architectures at the edge can be divided into three modes: ***centralized, decentralized and hybrid***.
 
-In the centralized mode, the DNN model is trained in the cloud datacenter. The data for training surveillance. Once the data is received, the datacenter cnto are generated and collected from distributed end devices, such as cell phones, cars, and diloud cameras performs DNN training using this data. Therefore, the system based on the centralized architecture can be identified in cloud intelligence level 0, level 1, level 2 or level 3 depending on the type of inference used.
+In the ***centralized mode***, the DNN model is trained in the cloud datacenter. The data for training surveillance. Once the data is received, the datacenter cnto are generated and collected from distributed end devices, such as cell phones, cars, and diloud cameras performs DNN training using this data. Therefore, the system based on the centralized architecture can be identified in cloud intelligence level 0, level 1, level 2 or level 3 depending on the type of inference used.
 
-In the decentralized mode, each edge server/local device locally trains its own DNN model with local data, preserving private information locally. In order to obtain the global DNN model, improvements to the local training must be shared; therefore, nodes in the network will communicate with each other to exchange updates to the local model. This mode corresponds to EI level 5.
+In the ***decentralized mode***, each edge server/local device locally trains its own DNN model with local data, preserving private information locally. In order to obtain the global DNN model, improvements to the local training must be shared; therefore, nodes in the network will communicate with each other to exchange updates to the local model. This mode corresponds to EI level 5.
 
-The last mode is the hybrid mode, in which the centralized and decentralized modes are combined. In this case, edge servers can train the DNN model either through decentralized updates with each other or through centralized training with the cloud datacenter. This mode corresponds to EI levels 4 and 5.
+The last mode is the ***hybrid mode***, in which the centralized and decentralized modes are combined. In this case, edge servers can train the DNN model either through decentralized updates with each other or through centralized training with the cloud datacenter. This mode corresponds to EI levels 4 and 5.
 
 As I have already anticipated throughout the article, the characteristic parameters to be monitored in the implementation of an EI model are bandwidth and energy efficiency, latency, communication cost, reliability, and security. To remind us of these, the acronym ***BLERP*** (Bandwith, Latency, Economics, Reliability, Privacy) was coined by Jeff Bier, founder of EDGE AI and Vision Alliance.
 
