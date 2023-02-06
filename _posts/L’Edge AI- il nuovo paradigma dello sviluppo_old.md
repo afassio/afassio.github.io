@@ -28,7 +28,7 @@ Un nodo edge può essere quindi un dispositivo finale locale, collegabile tramit
 La vicinanza fisica alle fonti di generazione delle informazioni è quindi la caratteristica più importante enfatizzata dall'edge-computing. In sostanza, la vicinanza fisica tra le fonti di elaborazione e di generazione delle informazioni permette vantaggi rispetto al tradizionale paradigma di elaborazione basato su cloud, quali la bassa latenza, l’efficienza energetica, la protezione della privacy, il consumo ridotto di larghezza di banda.
 
 <p align="center">
-<img src="/Images/art_edge_1.png"
+<img src="/Images/art_edge_1.jpg"
 alt="drawing" width="700" />
 </p>
 
