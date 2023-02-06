@@ -1,11 +1,11 @@
 # L’Edge AI: il nuovo paradigma dello sviluppo
 
-*Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI.*
-
 <p align="center">
 <img src="/Images/edgeAI.jpg"
 alt="drawing" width="700" />
 </p>
+
+> ## Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI.
 
 Grazie ai progressi degli algoritmi e alla potenza di calcolo applicata ai big data, il deep learning - il settore più brillante dell'IA - ha fatto grandi progressi in molti campi, che vanno dalla computer vision, al riconoscimento vocale e all'elaborazione del linguaggio naturale, fino alla robotica.
 
