@@ -25,6 +25,7 @@ In recent years, the concept of "on-device" computational analysis, which runs a
 
 An edge node can thus be a local end device that can be connected via device-to-device (D2D) communications, a server connected to an access point (e.g., a WiFi Access Point, a radio base station), a network gateway, or local micro datacenters (called "edge datacenters") available for use by neighboring devices. Edge nodes can thus range in size from a computer the size of a credit card to an edge datacenter with numerous racks of servers.  
 
+Physical proximity to information generation sources is thus the most important feature emphasized by edge-computing. In essence, physical proximity between processing and information generation sources enables advantages over the traditional cloud-based processing paradigm, such as low latency, energy efficiency, privacy protection, and reduced bandwidth consumption.An edge node can thus be a local end device that can be connected via device-to-device (D2D) communications, a server connected to an access point (e.g., a WiFi Access Point, a radio base station), a network gateway, or local micro datacenters (called "edge datacenters") available for use by neighboring devices. Edge nodes can thus range in size from a computer the size of a credit card to an edge datacenter with numerous racks of servers.  
 
 
 <p align="center">
