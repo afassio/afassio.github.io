@@ -34,7 +34,7 @@ alt="drawing" width="1000" />
 
 Il connubio tra edge computing e IA ha dato origine a una nuova area, la "***edge intelligence (EI)***" o "***edge AI***". Invece di affidarsi completamente al cloud, l'EI sfrutta le risorse edge diffuse per ottenere la potenza di calcolo desiderata.
 
-Anche se l'IA è salita recentemente alla ribalta, non è un termine nuovo ed è stato coniato per la prima volta nel 1956: è un approccio per costruire macchine intelligenti in grado di svolgere compiti simili a quelli dell'uomo. Una branca dell’IA è costituita dall'apprendimento automatico (o “machine learning in modo abbreviato ML).
+Anche se l'IA è salita recentemente alla ribalta, non è un termine nuovo ed è stato coniato per la prima volta nel 1956: è un approccio per costruire macchine intelligenti in grado di svolgere compiti simili a quelli dell'uomo. Una branca dell’IA è costituita dall'apprendimento automatico (o “machine learning" - in modo abbreviato ML).
 
 Molte metodologie di ML, come per esempio gli alberi decisionali, il clustering K-Means, le SVM (Support Vector Machines) e le reti neurali, sono state sviluppate per addestrare la macchina a produrre classificazioni e previsioni, sulla base dei dati ottenuti dal mondo reale. 
 
