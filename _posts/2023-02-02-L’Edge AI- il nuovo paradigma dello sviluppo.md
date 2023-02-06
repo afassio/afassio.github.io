@@ -151,4 +151,5 @@ In sintesi, l'Edge AI sta rivoluzionando il mondo fino ad ora conosciuto facendo
 
 
 [1] cfr. Daniel Situnayake, Jenny Plunkett “AI at the Edge” O’Reilly e  Zhou e altri: “Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing”, Proceedings of IEEE
+
 [2] https://afassio.github.io/2022/07/20/M&AM-july-2022_English_version.html
