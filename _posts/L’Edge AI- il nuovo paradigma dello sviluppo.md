@@ -1,4 +1,4 @@
-## L’Edge AI: il nuovo paradigma dello sviluppo
+# L’Edge AI: il nuovo paradigma dello sviluppo
 
 *Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI.*
 
