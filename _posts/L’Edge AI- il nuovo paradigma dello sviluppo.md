@@ -3,7 +3,7 @@
 > Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI. 
 
 <p align="center">
-<img src="/Images/rw.jpg"
+<img src="/Images/edgeAI.jpg"
 alt="drawing" width="1000" />
 </p>
 
