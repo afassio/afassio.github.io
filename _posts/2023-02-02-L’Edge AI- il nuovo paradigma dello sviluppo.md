@@ -137,7 +137,7 @@ Va sottolineato che le quattro modalità di inferenza edge-centriche sopra menzi
 
 Gli stessi parametri considerati per i processi di addestramento devono essere considerati per l’inferenza, soprattutto per i livelli EI che interessano i dispositivi edge più che i server edge.
 
-I devices locali spesso catturano più dati della banda trasmissiva a disposizione. Immaginiamo un sensore intelligente che controlli le vibrazioni di una macchina industriale tramite l’acquisizione di segnali audio su cui effettuare l’inferenza. I dati raccolti possono essere milioni in brevissimo tempo. Cosa potrebbe succedere se non venissero elaborati tutti o il sensore perdesse dati fondamentali poco prima della rottura? Cosa potrebbe succedere se, visto l’altissimo numero di campioni raccolti, avvenisse la parziale perdita legata all’efficienza energetica del device? 
+I devices locali spesso catturano più dati della banda trasmissiva a disposizione. Immaginiamo un sensore intelligente che controlli le vibrazioni di una macchina industriale tramite l’acquisizione di segnali audio su cui effettuare l’inferenza. I dati raccolti possono essere milioni in brevissimo tempo. Cosa potrebbe succedere se non venissero elaborati tutti o il sensore perdesse dati fondamentali poco prima della rottura? Cosa potrebbe succedere se, visto l’altissimo numero di campioni raccolti, avvenisse la parziale perdita legata all’efficienza energetica del device? [2]
 
 Per quanto riguarda la latenza, per esempio, per alcune applicazioni mobili intelligenti in tempo reale (ad esempio, telemedicina, giochi mobili AR/VR e robot intelligenti), i requisiti sono molto stringenti, come ad esempio la latenza di 100 ms. Anche l’energia ha per l’inferenza stretti vincoli a causa dell’alimentazione a batteria dei device e dell’energia necessaria al calcolo.
 
@@ -151,3 +151,4 @@ In sintesi, l'Edge AI sta rivoluzionando il mondo fino ad ora conosciuto facendo
 
 
 [1] cfr. Daniel Situnayake, Jenny Plunkett “AI at the Edge” O’Reilly e  Zhou e altri: “Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing”, Proceedings of IEEE
+[2] https://afassio.github.io/2022/07/20/M&AM-july-2022_English_version.html
