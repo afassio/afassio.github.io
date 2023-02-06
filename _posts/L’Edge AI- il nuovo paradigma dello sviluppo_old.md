@@ -40,8 +40,15 @@ Molte metodologie di ML, come per esempio gli alberi decisionali, il clustering 
 
 Tra gli algoritmi di ML più impegnativi dal punto di vista computazionale abbiamo il deep learning, che, basandosi su reti neurali “profonde”, ha portato a prestazioni molto importanti in diversi campi, tra cui la classificazione delle immagini, il riconoscimento dei volti, la classificazione dei segnali audio e così via. Poiché le reti neurali profonde consistono tipicamente in una serie di layers, il modello è chiamato rete neurale profonda (DNN) in cui ogni strato di una DNN è composto da neuroni che sono in grado di generare uscite non lineari sulla base dei dati provenienti dall'ingresso del neurone.
 
- 
+<p align="center">
+<img src="/Images/art_edge_2.png"
+alt="drawing" width="700" />
+</p> 
 
+<p align="center">
+<img src="/Images/art_edge_3.png"
+alt="drawing" width="1000" />
+</p>
  
 
 Alimentando un gran numero di campioni di addestramento e ripetendo questo processo finché il tasso di errore non è inferiore a una soglia predefinita, si ottiene un modello di apprendimento con un'elevata precisione.
