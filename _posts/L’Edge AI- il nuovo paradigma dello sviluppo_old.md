@@ -29,7 +29,7 @@ La vicinanza fisica alle fonti di generazione delle informazioni è quindi la ca
 
 <p align="center">
 <img src="/Images/art_edge_1.jpg"
-alt="drawing" width="700" />
+alt="drawing" width="1000" />
 </p>
 
 Il connubio tra edge computing e IA ha dato origine a una nuova area, la "edge intelligence (EI)" o "edge AI". Invece di affidarsi completamente al cloud, l'EI sfrutta le risorse edge diffuse per ottenere la potenza di calcolo desiderata.
