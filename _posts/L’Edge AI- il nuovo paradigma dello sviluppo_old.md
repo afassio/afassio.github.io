@@ -118,6 +118,11 @@ La connettività di un device costa molto in termini economici. Più banda è ri
 Anche la privacy dei dati non deve essere trascurata. Limitare la connettività all’edge preserva la privacy dei dati, dato che non devono essere trasmessi attraverso la rete di comunicazione con il cloud. Per esempio, nel caso della video analisi, piuttosto che effettuare lo streaming video e audio ad un server remoto, può essere utilizzata l’”intelligenza” racchiusa in una telecamera predisposta per EI per elaborare gli algoritmi di apprendimento con DNN.
 
 Vediamo ora le tipologie di architetture che possono essere utilizzate per l’inferenza.
+
+<p align="center">
+<img src="/Images/art_edge_6.gif"
+alt="drawing" width="1000" />
+</p>
  
 a) Modalità edge-based:  il dispositivo A è in modalità edge-based, il che significa che il dispositivo riceve i dati di input e li invia al server edge. Quando l'inferenza viene eseguita dall'edge server, i risultati della predizione vengono restituiti al dispositivo. In questa modalità di inferenza, poiché il modello si trova sull'edge server, è facile implementare l'applicazione su diverse piattaforme mobili. Tuttavia, lo svantaggio principale è che le prestazioni di inferenza dipendono dalla larghezza di banda della rete tra il dispositivo e l'edge server.
 
