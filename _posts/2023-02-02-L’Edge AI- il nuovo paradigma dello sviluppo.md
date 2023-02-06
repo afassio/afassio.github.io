@@ -42,7 +42,7 @@ Tra gli algoritmi di ML più impegnativi dal punto di vista computazionale abbia
 
 <p align="center">
 <img src="/Images/art_edge_2.png"
-alt="drawing" width="700" />
+alt="drawing" width="500" />
 </p> 
 
 <p align="center">
