@@ -178,4 +178,5 @@ In summary, Edge AI is revolutionizing the hitherto known world by making realti
 
 
 [1] cfr. Daniel Situnayake, Jenny Plunkett “AI at the Edge” O’Reilly e  Zhou e altri: “Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing”, Proceedings of IEEE
+
 [2] https://afassio.github.io/2022/07/20/M&AM-july-2022_English_version.html
