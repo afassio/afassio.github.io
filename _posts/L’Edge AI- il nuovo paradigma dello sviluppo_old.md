@@ -77,7 +77,8 @@ L'ambito di applicazione dell'IE, tuttavia, non deve essere limitato all'esecuzi
 
 L'IE deve essere il paradigma che sfrutta appieno i dati e le risorse disponibili nella gerarchia dei dispositivi finali, dei nodi edge e dei data center del cloud per ottimizzare le prestazioni complessive dell'addestramento e dell'inferenza di un modello DNN. Tuttavia questo non significa necessariamente che il modello DNN sia completamente addestrato o inferenziato all'edge, ma che può funzionare in modo coordinato cloud-edge-device tramite l'offloading dei dati. In particolare, in base alla quantità e alla lunghezza del percorso di offloading dei dati, classifichiamo l'EI in sei livelli, come illustrato nella figura.
 
-In particolare, è possibile  definire sette livelli di   costitEIue connti untinuum tra il cloud computing degli hyperscales, gli edge datacenter e i device finali.
+In particolare, è possibile  definire sette livelli [1] costituenti un continuum tra il cloud computing degli hyperscales, gli edge datacenter e i device finali.
+
 1.	***Livello 0***: addestramento e inferenza completamente nel cloud
 2.	***Livello 1***: addestramento nel cloud, ma inferenza in modo cooperativo edge-cloud; in questo caso, la cooperazione edge-cloud implica lo scarico parziale dei dati nel cloud
 3.	***Livello 2***: addestramento nel cloud, ma l’inferenza viene eseguita “in-edge”, il che può essere realizzato scaricando completamente o parzialmente i dati sui server edge o su dispositivi vicini
@@ -104,7 +105,7 @@ Nella modalità decentrata, ogni server edge/dispositivo locale addestra localme
 
 L’ultima modalità è quella ibrida, in cui vengono combinate la modalità centralizzata e quella decentralizzata. In questo caso gli edge server possono addestrare il modello DNN sia tramite aggiornamenti decentralizzati tra loro, sia tramite l'addestramento centralizzato con il cloud datacenter. Questa modalità corrisponde al livello 4 e 5 di EI.
 
-Come ho giá avuto modo di anticipare nel corso dell’articolo, i parametri caratteristici da monitorare nell’implementazione di un modello EI sono la banda e l’efficienza energetica, la latenza, il costo della comunicazione, l’affidabilità, la sicurezza. Per ricordarli è stato coniato l’acronimo BLERP (Bandwith, Latency, Economics, Reliability, Privacy) da Jeff Bier, fondatore di EDGE AI e Vision Alliance.
+Come ho giá avuto modo di anticipare nel corso dell’articolo, i parametri caratteristici da monitorare nell’implementazione di un modello EI sono la banda e l’efficienza energetica, la latenza, il costo della comunicazione, l’affidabilità, la sicurezza. Per ricordarli è stato coniato l’acronimo ***BLERP*** (Bandwith, Latency, Economics, Reliability, Privacy) da Jeff Bier, fondatore di EDGE AI e Vision Alliance.
 
 Analizziamo nel seguito come influiscono nella fase di addestramento.
 
@@ -147,3 +148,6 @@ Anche l'utilizzo di memoria nell'esecuzione dell'inferenza soprattutto sui dispo
 Con questo articolo ho cercato di evidenziare le caratteristiche peculiari dell’Edge AI e come esso rappresenti il nuovo paradigma per lo sviluppo. Si apre quindi la strada a una vasta gamma di nuove applicazioni in cui è necessaria l’estrema reattività del sistema computazionale. 
 
 In sintesi, l'Edge AI sta rivoluzionando il mondo fino ad ora conosciuto facendo si che i dati in realtime diventino centrali nello sviluppo economico e tecnologico, dando vita a una nuova era, quella dell'intelligenza artificiale decentralizzata.
+
+
+[1] cfr. Daniel Situnayake, Jenny Plunkett “AI at the Edge” O’Reilly e  Zhou e altri: “Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing”, Proceedings of IEEE
