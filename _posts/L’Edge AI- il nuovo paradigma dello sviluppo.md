@@ -4,7 +4,7 @@
 
 <p align="center">
 <img src="/Images/edgeAI.jpg"
-alt="drawing" width="500" />
+alt="drawing" width="700" />
 </p>
 
 Grazie ai progressi degli algoritmi e alla potenza di calcolo applicata ai big data, il deep learning - il settore più brillante dell'IA - ha fatto grandi progressi in molti campi, che vanno dalla computer vision, al riconoscimento vocale e all'elaborazione del linguaggio naturale, fino alla robotica.
