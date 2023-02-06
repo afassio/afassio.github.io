@@ -79,11 +79,17 @@ IE should be the paradigm that fully exploits the data and resources available i
 Specifically, seven levels [1] can be defined constituting a continuum between the cloud computing of hyperscales, edge datacenters and end devices.
 
 1.***Level 0***: training and inference completely in the cloud
+
 2.***Level 1***: training in the cloud, but inference cooperatively edge-cloud; in this case, edge-cloud cooperation implies partial offloading of data to the cloud
+
 3.***Level 2***: training in the cloud, but inference is performed "in-edge," which can be accomplished by fully or partially offloading data to edge servers or nearby devices
+
 4.***Level 3***: training in the cloud and inference on the end device "on-device": in this case no data is downloaded to the edge server
+
 5.***Level 4***: training and inference in edge-cloud cooperation mode
+
 6.***Level 5***: training and inference in in-edge mode, i.e., on edge servers
+
 7.***Level 6***: DNN model training and inference in on-device mode
 
 <p align="center">
