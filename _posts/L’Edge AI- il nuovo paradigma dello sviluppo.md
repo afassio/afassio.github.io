@@ -2,6 +2,11 @@
 
 > Negli ultimi anni, anche grazie alle grandi mutazioni sociali e tecnologiche che hanno interessato tutti i continenti, stiamo vivendo un’accelerazione nello sviluppo dell'intelligenza artificiale, la cosiddetta AI. 
 
+<p align="center">
+<img src="/Images/rw.jpg"
+alt="drawing" width="1000" />
+</p>
+
 Grazie ai progressi degli algoritmi e alla potenza di calcolo applicata ai big data, il deep learning - il settore più brillante dell'IA - ha fatto grandi progressi in molti campi, che vanno dalla computer vision, al riconoscimento vocale e all'elaborazione del linguaggio naturale, fino alla robotica.
 
 È ampiamente riconosciuto che applicazioni intelligenti stanno arricchendo in modo significativo lo stile di vita delle persone, cercando di migliorare la produttività umana e l'efficienza sociale.
