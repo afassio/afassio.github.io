@@ -86,6 +86,10 @@ In particolare, è possibile  definire sette livelli di   costitEIue connti unti
 6.	Livello 5: addestramento e inferenza in modalità in-edge, cioè sui server edge
 7.	Livello 6: addestramento e inferenza del modello DNN in modalità on-device
 
+<p align="center">
+<img src="/Images/art_edge_5.gif"
+alt="drawing" width="700" />
+</p>
  
 
 All'aumentare del livello di EI, la quantità e la lunghezza del percorso di offloading dei dati si riducono. Di conseguenza, la latenza di trasmissione dell'offloading dei dati diminuisce, la privacy dei dati aumenta e il costo della larghezza di banda WAN si riduce. Tuttavia, questo risultato è ottenuto al costo di un aumento della latenza computazionale e del consumo energetico. 
