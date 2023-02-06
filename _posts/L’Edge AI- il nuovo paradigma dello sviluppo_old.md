@@ -65,6 +65,10 @@ Le predizioni estratte dal modello costruito sui dati rilevati vengono poi utili
 
 Come ulteriore miglioramento in questi ultimi due anni sta prendendo piede il paradigma dell'esecuzione di algoritmi di IA a livello locale su un dispositivo finale, con dati (dati di sensori o segnali) elaborati sul dispositivo, la cosiddetta “TinyML”, anche se tali elaborazioni sono limitate dalle prestazioni dei microprocessori utilizzati sui devices finali.
 
+<p align="center">
+<img src="/Images/art_edge_4.png"
+alt="drawing" width="700" />
+</p>
  
 
 Ecco che dunque la Edge-Ai può essere bene rappresentata con il connubio computazionale fra edge data centers e devices finali, a seconda delle prestazioni che devono essere ottenute. E’ ciò che oggi permette la “democratizzazione dell'IA”, cioè la visione di "rendere fruibile l'IA per ogni persona e ogni organizzazione, ovunque".
