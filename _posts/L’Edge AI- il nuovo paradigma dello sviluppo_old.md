@@ -63,7 +63,7 @@ Il deep learning, infatti, offre la capacità di identificare automaticamente mo
 
 Le predizioni estratte dal modello costruito sui dati rilevati vengono poi utilizzate per il processo decisionale predittivo in tempo reale in risposta agli ambienti in rapida evoluzione, aumentando l'efficienza operativa.
 
-Come ulteriore miglioramento in questi ultimi due anni sta prendendo piede il paradigma dell'esecuzione di algoritmi di IA a livello locale su un dispositivo finale, con dati (dati di sensori o segnali) elaborati sul dispositivo, la cosiddetta “TinyML”, anche se tali elaborazioni sono limitate dalle prestazioni dei microprocessori utilizzati sui devices finali.
+Come ulteriore miglioramento in questi ultimi due anni sta prendendo piede il paradigma dell'esecuzione di algoritmi di IA a livello locale su un dispositivo finale, con dati (dati di sensori o segnali) elaborati sul dispositivo, la cosiddetta “***TinyML***”, anche se tali elaborazioni sono limitate dalle prestazioni dei microprocessori utilizzati sui devices finali.
 
 <p align="center">
 <img src="/Images/art_edge_4.png"
@@ -78,13 +78,13 @@ L'ambito di applicazione dell'IE, tuttavia, non deve essere limitato all'esecuzi
 L'IE deve essere il paradigma che sfrutta appieno i dati e le risorse disponibili nella gerarchia dei dispositivi finali, dei nodi edge e dei data center del cloud per ottimizzare le prestazioni complessive dell'addestramento e dell'inferenza di un modello DNN. Tuttavia questo non significa necessariamente che il modello DNN sia completamente addestrato o inferenziato all'edge, ma che può funzionare in modo coordinato cloud-edge-device tramite l'offloading dei dati. In particolare, in base alla quantità e alla lunghezza del percorso di offloading dei dati, classifichiamo l'EI in sei livelli, come illustrato nella figura.
 
 In particolare, è possibile  definire sette livelli di   costitEIue connti untinuum tra il cloud computing degli hyperscales, gli edge datacenter e i device finali.
-1.	Livello 0: addestramento e inferenza completamente nel cloud
-2.	Livello 1: addestramento nel cloud, ma inferenza in modo cooperativo edge-cloud; in questo caso, la cooperazione edge-cloud implica lo scarico parziale dei dati nel cloud
-3.	Livello 2: addestramento nel cloud, ma l’inferenza viene eseguita “in-edge”, il che può essere realizzato scaricando completamente o parzialmente i dati sui server edge o su dispositivi vicini
-4.	Livello 3: addestramento nel cloud e inferenza sul dispositivo finale "on-device": in questo caso non viene scaricato alcun dato sul server edge 
-5.	Livello 4: addestramento e inferenza in modalità di cooperazione edge-cloud
-6.	Livello 5: addestramento e inferenza in modalità in-edge, cioè sui server edge
-7.	Livello 6: addestramento e inferenza del modello DNN in modalità on-device
+1.	***Livello 0***: addestramento e inferenza completamente nel cloud
+2.	***Livello 1***: addestramento nel cloud, ma inferenza in modo cooperativo edge-cloud; in questo caso, la cooperazione edge-cloud implica lo scarico parziale dei dati nel cloud
+3.	***Livello 2***: addestramento nel cloud, ma l’inferenza viene eseguita “in-edge”, il che può essere realizzato scaricando completamente o parzialmente i dati sui server edge o su dispositivi vicini
+4.	***Livello 3***: addestramento nel cloud e inferenza sul dispositivo finale "on-device": in questo caso non viene scaricato alcun dato sul server edge 
+5.	***Livello 4***: addestramento e inferenza in modalità di cooperazione edge-cloud
+6.	***Livello 5***: addestramento e inferenza in modalità in-edge, cioè sui server edge
+7.	***Livello 6***: addestramento e inferenza del modello DNN in modalità on-device
 
 <p align="center">
 <img src="/Images/art_edge_5.gif"
