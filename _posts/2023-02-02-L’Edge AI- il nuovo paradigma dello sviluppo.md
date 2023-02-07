@@ -21,7 +21,7 @@ La tendenza, infatti, era quella di trasportare le masse di dati dai dispositivi
 
 Negli ultimi anni è stato introdotto il concetto di analisi computazionale “on-device”, che esegue applicazioni di intelligenza artificiale sul dispositivo (l’”edge” appunto) per elaborare localmente i dati IoT. Tali devices, tuttavia, possono soffrire di scarse prestazioni ed efficienza energetica. Questo perché molte applicazioni di IA richiedono un'elevata potenza di calcolo che supera di gran lunga la capacità dei dispositivi IoT, che sono limitati dal punto di vista delle risorse e dell'energia.
 
-> ## Per realizzare il progetto sopra descritto la comunità tecnologica a introdotto l'edge-computing, che spinge i servizi computazionali dal nucleo della rete (cloud) ai bordi della rete (edge), più vicini ai dispositivi locali e alle fonti dei dati. 
+> ## Per realizzare il progetto sopra descritto la comunità tecnologica ha introdotto l'edge-computing, che spinge i servizi computazionali dal nucleo della rete (cloud) ai bordi della rete (edge), più vicini ai dispositivi locali e alle fonti dei dati. 
 
 Un nodo edge può essere quindi un dispositivo finale locale, collegabile tramite comunicazioni device-to-device (D2D), un server collegato a un punto di accesso (ad esempio, un WiFi Access Point, una stazione radio base), un gateway di rete o micro datacenters locali (chiamati “edge datacenter”) disponibile per l'uso da parte dei dispositivi vicini. I nodi edge possono quindi avere dimensioni molto diverse: da un computer delle dimensioni di una carta di credito a un edge datacenter con numerosi rack di server.  
 
